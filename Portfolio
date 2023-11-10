@@ -1,76 +1,124 @@
-**HTML (index.html):**
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Name - Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
-    </header>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Short bio or description of yourself.</p>
-    </section>
-    <footer>
-        <p>Contact: your@email.com</p>
-    </footer>
-</body>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Skilled in C and C++, proficient in HTML, CSS, and Python, I bring a strong foundation in programming and web development to the table. My ongoing journey in learning JavaScript, Flutter, React, and the dynamic field of data science reflects my dedication to continuous growth and adaptability.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/Front-End Design.png" alt="Python Logo" class="skills__icon">
+                                <span class="skills__name">Front-end Developer</span>
+                            </div>
+                            <div class="skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/C language.png" alt="C Logo" class="skills__icon">
+                                <span class="skills__name">C Language</span>
+                            </div>
+                            <div class="skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="assets/img/Python logo.png" alt="Python Logo" class="skills__icon">
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__python">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/Skills.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work Experience</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://www.linkedin.com/company/codezillaclub" class="work__img">
+                        <img src="assets/img/Codezilla.jpg" alt="">
+                        <figcaption class="work__caption">Design Team Member at Codezilla Club</figcaption>
+                    </a>
+                    <a href="https://www.linkedin.com/company/dsc-srm-ramapuram/mycompanys" class="work__img">
+                        <img src="assets/img/GDSC Logos.png" alt="">
+                        <figcaption class="work__caption">Design Team Member at GDSC Club</figcaption>
+                    </a>
+                    <!-- <a href="" class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a> -->
+                </div>
+            </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Sahil</p>
+            <div class="footer__social">
+                <a href="https://www.instagram.com/sa_hilll94" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/Sa_hilll94" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+                <a href="https://open.spotify.com/user/5kzseqwzfoywp5lp91va0g3x6?si=lMR8yGmRRI-GXSTUpOkZ-g&nd=1" class="footer__icon"><i class='bx bxl-spotify'></i></a>
+            </div>
+            <p class="footer__copy">&#169; Sahil. All rights reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
-```
-
-**CSS (styles.css):**
-```css
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-h1, h2, h3 {
-    margin-bottom: 5px;
-}
-
-section {
-    padding: 20px;
-}
-
-#projects {
-    background-color: #f4f4f4;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-```
